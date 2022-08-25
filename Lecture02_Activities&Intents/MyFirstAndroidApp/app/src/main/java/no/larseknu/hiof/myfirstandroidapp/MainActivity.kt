@@ -2,10 +2,8 @@ package no.larseknu.hiof.myfirstandroidapp
 
 import android.content.Intent
 import android.net.Uri
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Button
-import android.widget.EditText
+import androidx.appcompat.app.AppCompatActivity
 import no.larseknu.hiof.myfirstandroidapp.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {

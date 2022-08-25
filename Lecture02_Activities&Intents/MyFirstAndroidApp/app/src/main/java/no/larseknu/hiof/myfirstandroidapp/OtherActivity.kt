@@ -9,7 +9,7 @@ import androidx.activity.result.contract.ActivityResultContracts
 import no.larseknu.hiof.myfirstandroidapp.databinding.ActivityOtherBinding
 
 class OtherActivity : AppCompatActivity() {
-    private val logtag = "PlayingWithAndroid"
+    val LOG_TAG = "LifeCycle"
 
     companion object {
         const val KEY_NAME = "input_text"
@@ -40,7 +40,7 @@ class OtherActivity : AppCompatActivity() {
 
 
         binding.getPictureButton.setOnClickListener {
-            Toast.makeText(this, "Getting picture", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "Getting picture", Toast.LENGTH_SHORT).show();
 
             pickMedia.launch(PickVisualMediaRequest(ActivityResultContracts.PickVisualMedia.ImageOnly))
         }
@@ -48,21 +48,21 @@ class OtherActivity : AppCompatActivity() {
 
     override fun onStart() {
         super.onStart()
-        Log.d(logtag, "onStart() ran")
+        Log.d(LOG_TAG, "onStart() ran")
     }
 
     override fun onResume() {
         super.onResume()
-        Log.d(logtag, "onResume() ran")
+        Log.d(LOG_TAG, "onResume() ran")
     }
 
     override fun onPause() {
         super.onPause()
-        Log.d(logtag, "onPause() ran")
+        Log.d(LOG_TAG, "onPause() ran")
     }
 
     override fun onStop() {
         super.onStop()
-        Log.d(logtag, "onStop() ran")
+        Log.d(LOG_TAG, "onStop() ran")
     }
 }
