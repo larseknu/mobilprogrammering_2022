@@ -8,18 +8,6 @@
 
     <string name="remove_view">Remove View</string>
 
-    <string name="deadpool_summary">Based upon Marvel Comics\' most unconventional hero, Deadpool tells the origin story of former Special Forces operative turned mercenary Wade Wilson. Who after being subjected to a rogue experiment leaves him with accelerated healing powers, adopts the alter ego Deadpool.</string>
-    <string name="movie_header">deadpool header</string>
-    <string name="plex_poster">plex poster</string>
-    <string name="play_button">play button</string>
-    <string name="deadpool">Deadpool</string>
-    <string name="year_2016">2016</string>
-    <string name="add_movie_to_favourites">add movie to favourites</string>
-    <string name="add_movie_watched">Add movie to watched</string>
-    <string name="download_movie">Download movie</string>
-    <string name="clock_image">Clock image</string>
-    <string name="movie_duration">1 hr 48 min</string>
-
     <string name="philter">Philter</string>
     <string name="song_title">We Move Like Wolves</string>
     <string name="duration_remaining">00:19</string>
