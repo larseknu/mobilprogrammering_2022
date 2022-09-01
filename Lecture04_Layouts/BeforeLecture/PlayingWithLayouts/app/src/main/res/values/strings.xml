@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">PlayingWithLayouts</string>
+    <string name="a">A</string>
+    <string name="b">B</string>
+    <string name="c">C</string>
+    <string name="e">E</string>
+    <string name="d">D</string>
+
+    <string name="remove_view">Remove View</string>
+
+    <string name="philter">Philter</string>
+    <string name="song_title">We Move Like Wolves</string>
+    <string name="duration_remaining">00:19</string>
+    <string name="duration_total">3:10</string>
+    <string name="play_button_image">Play button image</string>
+    <string name="movie_poster">Movie poster</string>
+    <string name="skip_next_button">Skip next button</string>
+    <string name="skip_previous_button">Skip previous button</string>
+    <string name="play">Play</string>
+    <string name="cover_art">Cover art</string>
+</resources>
