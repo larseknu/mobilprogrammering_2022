@@ -10,6 +10,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_constraint_layout_basics)
+        //setContentView(R.layout.activity_linear_layout_basics)
         //setContentView(R.layout.activity_constraint_layout_chains)
         //setContentView(R.layout.activity_constraint_layout_spotify)
         //setContentView(R.layout.activity_contraint_layout_plex)
