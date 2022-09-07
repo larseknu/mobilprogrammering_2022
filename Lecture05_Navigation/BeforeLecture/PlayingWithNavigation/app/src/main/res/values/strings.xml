@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">PlayingWithNavigation</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcome">Welcome!</string>
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="profile_image">Profile image</string>
+    <string name="password">Password</string>
+    <string name="hello_world">Hello World!</string>
+</resources>
