@@ -8,7 +8,9 @@ import android.view.ViewGroup
 import android.widget.Toast
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.GridLayoutManager
+import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import androidx.recyclerview.widget.StaggeredGridLayoutManager
 import no.larseknu.hiof.playingwithrecyclerview.adapter.MovieAdapter
 import no.larseknu.hiof.playingwithrecyclerview.model.Movie
 
@@ -47,6 +49,12 @@ class MovieListFragment : Fragment() {
             Toast.makeText(view.context, clickedMovie.title + " clicked", Toast.LENGTH_SHORT).show()
         }
 
+        // Sets the layoutmanager we want to use
         movieRecyclerView.layoutManager = GridLayoutManager(context, 3)
+        //movieRecyclerView.layoutManager = GridLayoutManager(context, 2)
+        //movieRecyclerView.layoutManager = GridLayoutManager(context, 2, GridLayoutManager.HORIZONTAL, false)
+        //movieRecyclerView.layoutManager = StaggeredGridLayoutManager(3, StaggeredGridLayoutManager.VERTICAL)
+        //movieRecyclerView.layoutManager = LinearLayoutManager(context, LinearLayoutManager.HORIZONTAL, false)
+        //movieRecyclerView.layoutManager = LinearLayoutManager(context, LinearLayoutManager.VERTICAL, false)
     }
 }
