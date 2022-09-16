@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">BottomNavigationPlay</string>
+    <string name="title_home">Home</string>
+    <string name="title_search">Search</string>
+    <string name="title_collections">Collections</string>
+    <string name="text_home">This is home Fragment</string>
+    <string name="text_search">This is search Fragment</string>
+    <string name="text_collections">This is collections Fragment</string>
+
+    <string name="movie_poster">Movie Poster</string>
+    <string name="movie_title">Movie Title</string>
+    <string name="a_description_of_the_movie">A description of the movie</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

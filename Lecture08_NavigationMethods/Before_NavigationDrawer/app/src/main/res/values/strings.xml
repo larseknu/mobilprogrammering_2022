@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">NavigationDrawerPlay</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="drawer_open">Drawer open</string>
+    <string name="drawer_close">Drawer close</string>
+    <string name="help_feedback"><![CDATA[Help & Feedback]]></string>
+    <string name="settings">Settings</string>
+    <string name="settings_header">Settings</string>
+    <string name="lists">Lists</string>
+    <string name="movies">Movies</string>
+    <string name="shows">Shows</string>
+    <string name="title_activity_lists">Lists</string>
+    <string name="listview">ListView</string>
+    <string name="discover">Discover</string>
+    <string name="watchlist">Watchlist</string>
+    <string name="movie_poster">Movie Poster</string>
+    <string name="collection">Collection</string>
+    <string name="home">Home</string>
+</resources>
