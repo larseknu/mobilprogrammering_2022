@@ -7,8 +7,6 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
 import androidx.fragment.app.viewModels
-import androidx.lifecycle.ViewModelProvider
-import androidx.lifecycle.get
 import androidx.navigation.fragment.NavHostFragment
 import no.larseknu.hiof.viewmodelplay.R
 import no.larseknu.hiof.viewmodelplay.databinding.FragmentMovieSelectionBinding
@@ -21,8 +19,6 @@ class MovieSelectionFragment : Fragment() {
 
     private val viewModel: MovieSelectionViewModel by viewModels()
 
-
-    private var selectionFinished = false
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -68,11 +64,9 @@ class MovieSelectionFragment : Fragment() {
     * These are not needed when we use an observer
     */
     private fun updateMovieInUI() {
-        if (!selectionFinished) {
-            updatePoster()
-            updateTitle()
-            updateSeenText()
-        }
+        updatePoster()
+        updateTitle()
+        updateSeenText()
     }
 
     private fun updateSeenText() {

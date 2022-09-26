@@ -22,9 +22,6 @@ class MovieSelectionFragment : Fragment() {
 
     private val viewModel: MovieSelectionViewModel by viewModels()
 
-
-    private var selectionFinished = false
-
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -88,11 +85,9 @@ class MovieSelectionFragment : Fragment() {
     * These are not needed when we use an observer
     */
     /*private fun updateMovieInUI() {
-        if (!selectionFinished) {
-            updatePoster()
-            updateTitle()
-            updateSeenText()
-        }
+        updatePoster()
+        updateTitle()
+        updateSeenText()
     }
 
     private fun updateSeenText() {

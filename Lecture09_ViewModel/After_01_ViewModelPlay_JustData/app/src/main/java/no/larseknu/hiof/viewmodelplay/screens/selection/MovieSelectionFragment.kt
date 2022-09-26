@@ -20,7 +20,6 @@ class MovieSelectionFragment : Fragment() {
     private lateinit var currentMovie: Movie
     private var numberAnswered = 0
     private var numberSeen = 0
-    private var selectionFinished = false
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -66,11 +65,9 @@ class MovieSelectionFragment : Fragment() {
     * These are not needed when we use an observer
     */
     private fun updateMovieInUI() {
-        if (!selectionFinished) {
-            updatePoster()
-            updateTitle()
-            updateSeenText()
-        }
+        updatePoster()
+        updateTitle()
+        updateSeenText()
     }
 
     private fun updateSeenText() {
@@ -92,7 +89,6 @@ class MovieSelectionFragment : Fragment() {
         }
         else {
             Toast.makeText(activity, "No more movies!", Toast.LENGTH_SHORT).show()
-            selectionFinished = true
         }
     }
 
