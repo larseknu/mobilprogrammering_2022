@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/movieSelectionFragment">
+
+    <fragment
+        android:id="@+id/movieSelectionFragment"
+        android:name="no.larseknu.hiof.viewmodelplay.screens.selection.MovieSelectionFragment"
+        android:label="fragment_movie_selection"
+        tools:layout="@layout/fragment_movie_selection" >
+        <action
+            android:id="@+id/actionMovieSelectionToSummary"
+            app:destination="@id/movieSummaryFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/movieSummaryFragment"
+        android:name="no.larseknu.hiof.viewmodelplay.screens.summary.MovieSummaryFragment"
+        android:label="fragment_movie_summary"
+        tools:layout="@layout/fragment_movie_summary" >
+        <argument
+            android:name="numberSeen"
+            app:argType="integer"
+            android:defaultValue="0" />
+        <argument
+            android:name="numberAnswered"
+            app:argType="integer"
+            android:defaultValue="0" />
+        <action
+            android:id="@+id/actionStartSelectionAgainFromSummary"
+            app:destination="@id/movieSelectionFragment" />
+    </fragment>
+</navigation>
