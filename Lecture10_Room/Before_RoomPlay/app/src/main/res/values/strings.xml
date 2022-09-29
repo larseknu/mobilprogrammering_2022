@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ViewModelPlay</string>
+
+    <string name="not_seen">Not Seen</string>
+    <string name="seen">Seen</string>
+    <string name="go_to_summary">Go to summary</string>
+    <string name="seen_4_out_of_5_movies">Seen 4 out of 5 movies</string>
+    <string name="coco">Coco</string>
+    <string name="number_seen_of_answered">Seen %1$d of %2$d movies</string>
+    <string name="movie_poster">Movie poster</string>
+    <string name="go_through_new_movielist">Go through new movielist</string>
+</resources>
