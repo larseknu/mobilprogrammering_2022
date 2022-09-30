@@ -1,6 +1,7 @@
 package no.larseknu.hiof.roomplay.data
 
 import androidx.room.Dao
+import androidx.room.Delete
 import androidx.room.Insert
 import androidx.room.Query
 import kotlinx.coroutines.flow.Flow
@@ -20,3 +21,4 @@ interface MovieDao {
     suspend fun deleteAll()
 
 }
+

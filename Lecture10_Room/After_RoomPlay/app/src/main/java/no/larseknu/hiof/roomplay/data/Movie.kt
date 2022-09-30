@@ -9,3 +9,4 @@ data class Movie(var title : String, var description : String, var posterUrl : I
     @PrimaryKey(autoGenerate = true)
     var uid : Int = 0
 }
+
