@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FirebasePlay</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="movie_poster">Movie Poster</string>
+    <string name="movie_title">Movie Title</string>
+    <string name="a_description_of_the_movie">A description of the movie</string>
+</resources>

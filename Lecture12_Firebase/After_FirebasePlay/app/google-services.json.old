@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "98759155120",
+    "project_id": "fir-movies-c6ebd",
+    "storage_bucket": "fir-movies-c6ebd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:98759155120:android:e3d350a27d2c43535f4a75",
+        "android_client_info": {
+          "package_name": "no.larseknu.hiof.firebaseplay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "98759155120-cq74cs47ra9jfmauoht07rv1ji22smv3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNJGek24MPDOtwRJo3aLTkbEi-uuRetks"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "98759155120-cq74cs47ra9jfmauoht07rv1ji22smv3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
